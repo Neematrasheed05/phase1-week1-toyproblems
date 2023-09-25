@@ -5,7 +5,7 @@ function calcDemeritPoints(speed){
     const kmPerDemeritPoint = 5;
 //this is the demerit points one is going to be given incase they go above limit
     if (speed < speedlimit + kmPerDemeritPoint){
-        return "points:0";
+        return "OK";
         //this if statement states that if the speed limit is less 
         //than 70km/s then they should give 0points of Demerit
     }
